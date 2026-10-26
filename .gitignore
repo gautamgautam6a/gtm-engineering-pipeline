@@ -1,0 +1,76 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+secrets/
+credentials.*
+secrets.*
+*.secret
+*.secrets
+.secrets/
+.envrc
+
+# Python environments
+.venv/
+venv/
+env/
+pyScripts/
+
+# Python and test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local databases and sidecar files
+*.duckdb
+*.duckdb.*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+
+# Successful-sync state and atomic-save temporary files
+sync_state*.json
+sync_state*.json.*
+*sync_state*.json
+*sync_state*.json.*
+*sync-state*.json
+*sync-state*.json.*
+test_state.json
+test_state.json.*
+
+# Disposable test/demo folders
+.gtm_state_demo_*/
+.billing_test_*/
+.sender_test_*/
+.payload_test_*/
+.state_regression_*/
+.legacy_state_*/
+.name_validation_*/
+.name_dry_run_*/
+.timestamp_test_*/
+.webhook_test_*/
+
+# Temporary files and logs
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+
+# Local workbook and exploratory database script
+Funding_Source_Intelligence_UK_US_Europe.xlsx
+test_join.py
